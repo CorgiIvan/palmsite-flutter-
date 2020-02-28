@@ -1,0 +1,138 @@
+name: palm_sitt_for_flutter
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_screenutil: ^0.4.2
+  chewie: ^0.8.0
+  path_provider: ^0.4.1
+  simple_permissions: ^0.1.9
+  image_picker: ^0.4.10
+  qr_flutter: ^1.1.5
+
+  barcode_scan: ^0.0.8
+  flutter_swiper: ^1.1.4
+  dio: ^1.0.13
+  fluttertoast: ^2.2.6
+  shared_preferences: ^0.4.3
+  http: ^0.12.0+1
+  image: ^2.0.5
+  cryptoutils: ^0.4.0
+  flutter_spinkit: ^3.1.0
+  flutter_html: ^0.9.4
+  html_unescape: ^1.0.1+2
+  flutter_html_view: ^0.5.11
+  flutter_webview_plugin: ^0.3.0+2
+  flutter_inappbrowser: ^0.5.51
+  flutter_refresh: ^0.0.2
+  pull_to_refresh: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - htmlsource/css/main.css
+    - images/app_logo.png
+    - images/main/title.jpg
+    - images/main/c_banner01@3x.png
+    - images/main/a_ckda@3x.png
+    - images/main/info_n@3x.png
+    - images/main/a_sz@3x.png
+    - images/main/a_yjfk@3x.png
+    - images/main/a_czsc@3x.png
+    - images/main/a_fhw@3x.png
+    - images/main/erwm@3x.png
+    - images/main/tx_n@3x.png
+    - images/main/Fragment_icon/sy_n.png
+    - images/main/Fragment_icon/sy_c@3x.png
+    - images/main/Fragment_icon/wd_n@3x.png
+    - images/main/Fragment_icon/wd_c@3x.png
+    - images/main/Fragment_icon/ff_n@3x.png
+    - images/main/Fragment_icon/ff_c@3x.png
+    - images/main/icon1.png
+    - images/main/icon2.png
+    - images/main/icon3.png
+    - images/main/icon4.png
+    - images/main/icon5.png
+    - images/main/icon6.png
+    - images/main/car.png
+    - images/main/eweim.png
+    - images/main/jians.png
+    - images/main/jil.png
+    - images/main/tuis.png
+    - images/main/m_logo.png
+    - images/main/studyonline/y01.png
+    - images/main/studyonline/y02.png
+    - images/main/studyonline/y03.png
+    - images/main/studyonline/y04.png
+    - images/main/studyevaluation/zt001.png
+    - images/main/studyevaluation/zt002.png
+    - images/main/studyevaluation/a_jrxxsc@3x.png
+    - images/main/studyevaluation/a_lzsj@3x.png
+    - images/main/studyevaluation/a_pczql@3x.png
+    - images/main/studyevaluation/a_kszql@3x.png
+    - images/main/studyevaluation/a_ksjgl@3x.png
+    - images/main/SafeRecord/a_xb@3x.png
+    - images/main/SafeRecord/a_lxdh@3x.png
+    - images/main/SafeRecord/a_bt@3x.png
+    - images/main/SafeRecord/a_nr@3x.png
+    - images/main/SafeRecord/a_xcjl@3x.png
+    - images/main/SafeRecord/a_yhbh@3x.png
+    - images/main/HiddenPushPage/a_lzsj@3x.png
+    - images/main/HiddenPushPage/a_gd@3x.png
+    - images/main/HiddenPushPage/a_sgdw@3x.png
+    - images/main/HiddenPushPage/a_fzr@3x.png
+    - images/main/HiddenPushPage/a_qz@3x.png
+    - images/main/HiddenPushPage/a_tsr@3x.png
+    - images/main/pangzhanjianli/a_gd@3x.png
+    - images/main/pangzhanjianli/a_jlry@3x.png
+    - images/main/pangzhanjianli/a_jrxxsc@3x.png
+    - images/main/pangzhanjianli/a_lzsj@3x.png
+    - images/main/pangzhanjianli/a_lzwz@3x.png
+    - images/main/pangzhanjianli/a_sgdw@3x.png
+    - images/main/pangzhanjianli/a_sp@3x.png
+    - images/main/pangzhanjianli/a_spmc@3x.png
+    - images/main/pangzhanjianli/a_ysyq@3x.png
+    - images/main/safecase/x001.png
+    - images/main/safecase/x002.png
+    - images/main/safecase/x003.png
+    - images/main/safecase/x004.png
+    - images/main/safecase/x005.png
+    - images/main/safecase/x006.png
+    - images/main/safecase/x007.png
+    - images/main/safecase/detail/z001.png
+    - images/main/safecase/detail/z002.png
+    - images/main/safecase/detail/z003.png
+    - images/main/safecase/detail/z004.png
+    - images/main/safecase/detail/z005.png
+    - images/main/safecase/detail/z006.png
+    - images/main/safecase/detail/z007.png
+    - images/main/message/p_zgnr@3x.png
+    - images/main/summitExam/a_dlan@3x.png
+    - images/main/summitExam/a_sdaq@3x.png
+    - images/main/summitExam/a_wdct@3x.png
+    - images/main/summitExam/a_zxks@3x.png
+    - images/main/summitExam/a_jdpc@3x.png
+    - images/main/xiaox.png
+    - images/main/erwm.png
+    - images/main/zenggai.png
+    - images/main/genj.png
+    - images/main/zengjia.png
+    - images/main/zengjiatupian.png
+    - images/main/a_ss@3x.png
+    - images/main/a_lb@3x.png
+    - video/video.mp4
+    - images/
+    - assets/
